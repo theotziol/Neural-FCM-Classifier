@@ -112,6 +112,7 @@ def text_to_numerical(df, column):
     '''
     df = df.copy()
     uniqs = np.unique(df[column])
+    print(f'for column {column} unique values are {uniqs}\n')
     numbers = [i for i in range(len(uniqs))]
     for i,value in enumerate(uniqs):
         df[column][df[column] == value] = numbers[i]

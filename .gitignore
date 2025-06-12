@@ -1,7 +1,11 @@
 __pycache__
-experiments
-data
+experiments/*
+data/*
 *.docx
 *.pptx
 timeseries_prediction.py 
 junks
+figures
+main_different_parameters copy.py
+main_different_parameters.py
+thyroid.csv
