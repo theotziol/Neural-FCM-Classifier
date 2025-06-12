@@ -8,7 +8,7 @@
 - [Examples](#Examples)
 - [License](#license)
 
-## Abstarct
+## Abstract
 
 Neural-FCM is a novel learning framework that integrates deep learning concepts into Fuzzy Cognitive Map (FCM) modeling to improve classification performance. By employing a hybrid artificial neural network (ANN) decoder architecture, Neural-FCM transforms input data instances into FCM weight matrices. The method leverages deep learning optimization techniques, incorporating FCM reasoning into the training process by embedding it within a differentiable loss function. This approach ensures that the network outputs weight matrices that enhance FCM inference accuracy, while maintaining the fundamental interpretability of FCMs. Neural-FCM's dynamic weight generation allows for instance-specific matrix outputs, similar to Fuzzy Grey Cognitive Maps, enabling the model to adapt effectively to input data and deliver robust classification results. The use of high-level tools like Python and TensorFlow supports the practicality and reproducibility of the method, fostering further research and application in various domains. 
 
