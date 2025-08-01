@@ -1,4 +1,6 @@
-# Neural-FCM
+# Neural-FCM: A Deep Learning Approach for Weight Matrix Optimization in Fuzzy Cognitive Map Classifiers
+
+Neural-FCM has been accepted for publication in [Applied Intelligence](https://link.springer.com/journal/10489). 
 
 ## Table of Contents
 
@@ -7,9 +9,10 @@
 - [Usage](#usage)
 - [License](#license)
 
+
 ## Abstract
 
-Neural-FCM is a novel learning framework that integrates deep learning concepts into Fuzzy Cognitive Map (FCM) modeling to improve classification performance. By employing a hybrid artificial neural network (ANN) decoder architecture, Neural-FCM transforms input data instances into FCM weight matrices. The method leverages deep learning optimization techniques, incorporating FCM reasoning into the training process by embedding it within a differentiable loss function. This approach ensures that the network outputs weight matrices that enhance FCM inference accuracy, while maintaining the fundamental interpretability of FCMs. Neural-FCM's dynamic weight generation allows for instance-specific matrix outputs, similar to Fuzzy Grey Cognitive Maps, enabling the model to adapt effectively to input data and deliver robust classification results. The use of high-level tools like Python and TensorFlow supports the practicality and reproducibility of the method, fostering further research and application in various domains.
+The demand for interpretable and accurate machine learning models continues to grow, especially in critical domains. The data-driven Fuzzy Cognitive Map (FCM) classifier is an interpretable and transparent decision-making method. Its core element, the weight matrix, is derived using predominantly population-based supervised learning methods which often suffer from degraded performance. Recent research has adopted gradient-based learning techniques to compete with the predictive performance of black-box models. Nonetheless, such methods modify foundational principles and compromise interpretability, highlighting the necessity to improve existing approaches. In this work, we introduce a novel learning and structural modeling method, termed Neural-FCM, which leverages deep neural networks and gradient descent to enhance the accuracy and robustness of FCM learning. Neural-FCM employs a hybrid network comprising both dense and convolutional layers and is trained using a categorical cross-entropy loss function specifically aligned with FCM reasoning. This hybrid model is trained to output instance-specific weight matrices for effective and targeted FCM inference, introducing structural adaptability, a feature not supported by previous static or globally optimized approaches. Focusing on generalization across domains, the Neural-FCM approach is evaluated on different classification tasks across six widely used public datasets and one proprietary medical dataset, consistently showing improved predictive performance. Notably, the comparative analysis against standard population-based FCM learning methods reveals consistent accuracy improvements, with gains of up to 34%. While less transparent gradient-based methods also yield improved accuracy, Neural-FCM demonstrates competitive or superior performance in most cases, with accuracy improvements ranging from 1% to 6% across different domains, while preserving the underlying interpretability. The performance enhancement and the use of instance-specific matrices contribute to the broader goal of developing gradient-based models that balance computational efficiency with the intrinsic FCM interpretability.
 
 ## Instalation
 
@@ -47,7 +50,7 @@ Information about python scripts:
 
 ## License
 
-This project is going to be licensed under the [MIT License](LICENSE.txt) after acceptance for publication.
+This project is licensed under the [MIT License](LICENSE.txt).
 
 For more information you should contact the corresponding author/developer [**Theodoros Tziolas**](https://scholar.google.gr/citations?user=ww_3OmIAAAAJ&hl=el).
 Email: <ttziolas@uth.gr>
