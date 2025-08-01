@@ -48,6 +48,11 @@ Information about python scripts:
 3. [preprocessing.py](preprocessing.py): Contains the code for data preparation.
 4. [fcm_libr_tensorflow.py](fcm_libr_tensorflow.py): Contains the tensorflow code for FCM supportive functions such as sigmoid.
 
+### Next steps
+
+1. Our efforts are focused in providing a python tool that leverages Neural-FCM for FCM learning... Stay tuned for more...
+2. Neural-FCM learning for time series processing....
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE.txt).
